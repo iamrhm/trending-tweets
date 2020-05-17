@@ -1,0 +1,26 @@
+{
+  "name": "tweet-socket",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "author": "Rahul Mitra <rahulmitra980@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "dotenv": "^8.2.0"
+  }
+}
